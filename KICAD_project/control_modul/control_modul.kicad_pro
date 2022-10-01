@@ -338,6 +338,10 @@
     [
       "c8e388d2-7e89-426e-898d-b65f535fdca8",
       "Power_supply"
+    ],
+    [
+      "ab543263-805e-496e-9109-66ccdcd5e88d",
+      "EFR32"
     ]
   ],
   "text_variables": {}
