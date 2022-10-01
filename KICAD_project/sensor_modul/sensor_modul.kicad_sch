@@ -832,6 +832,24 @@
     (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/c21d8a55-0d30-43a8-9173-73e480ff3516"
       (reference "FB3") (unit 1) (value "FerriteBead") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
+    (path "/7ca4154b-2f19-45d2-9e95-c7925bad1e15/8508ff5e-54e7-405e-8bb1-3255b333dd1a"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/7ca4154b-2f19-45d2-9e95-c7925bad1e15/cfe5a7b9-e5e7-4f61-9b12-57d22623a31a"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/7ca4154b-2f19-45d2-9e95-c7925bad1e15/77d0dae4-5f1a-4313-8a8b-c9cf4a86910c"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/7ca4154b-2f19-45d2-9e95-c7925bad1e15/1a1960f8-6991-4949-bc67-7dd60ad2c163"
+      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/7ca4154b-2f19-45d2-9e95-c7925bad1e15/2edafdb6-c2b1-4a74-8794-91d35c9ecd64"
+      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/7ca4154b-2f19-45d2-9e95-c7925bad1e15/40b6be73-a603-4fd8-af9e-a28373ea215f"
+      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
     (path "/006eecbc-2da1-42af-a6dd-806029d5a5a2/fe08f881-4956-45cd-a843-42ef1b8ebcc0"
       (reference "J1") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
