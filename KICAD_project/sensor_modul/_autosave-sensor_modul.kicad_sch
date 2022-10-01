@@ -110,14 +110,11 @@
     (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/a06fc6dd-4940-4365-9a52-e677446c70fa"
       (reference "C?") (unit 1) (value "1u") (footprint "")
     )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/d4510c15-0240-437c-826e-b0dd20eaa06b"
+      (reference "C?") (unit 1) (value "22u") (footprint "")
+    )
     (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/16bcef4e-e966-436b-a73c-84e5ca8105e1"
       (reference "D?") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/1c198c0c-93a1-401c-bf15-396fd6b73444"
-      (reference "D?") (unit 1) (value "LED") (footprint "")
-    )
-    (path "/59e48e3f-a326-4082-84f1-ace4fd015a86/8b88d67b-4680-42ab-8ee0-e0004be83008"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/a3191c0f-8584-4e20-86f6-e7bf190eb202"
       (reference "FB?") (unit 1) (value "FerriteBead") (footprint "")
@@ -128,26 +125,8 @@
     (path "/006eecbc-2da1-42af-a6dd-806029d5a5a2/fe08f881-4956-45cd-a843-42ef1b8ebcc0"
       (reference "J1") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
-    (path "/59e48e3f-a326-4082-84f1-ace4fd015a86/6525df72-d5ef-4587-946a-97cf921fa369"
-      (reference "J?") (unit 1) (value "Conn_01x02_Female") (footprint "")
-    )
-    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/a82f53e6-a07b-45b5-aac4-bae865208648"
-      (reference "J?") (unit 1) (value "Jack-DC") (footprint "")
-    )
-    (path "/59e48e3f-a326-4082-84f1-ace4fd015a86/10529639-610c-4bd0-8a29-079bdce9b8ef"
-      (reference "Q?") (unit 1) (value "2N7002H") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/5eeab45a-036e-494d-8f06-cc701470d420"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/59e48e3f-a326-4082-84f1-ace4fd015a86/b3c2f876-a980-438d-879d-3bf95de4cc39"
-      (reference "R?") (unit 1) (value "10k") (footprint "")
-    )
-    (path "/59e48e3f-a326-4082-84f1-ace4fd015a86/d78d1eeb-973e-4952-856a-40570c999d77"
-      (reference "R?") (unit 1) (value "tbd") (footprint "")
-    )
-    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/15b3eed2-b5fb-4bc0-b7e5-078c70420bd3"
-      (reference "U?") (unit 1) (value "MPB0503XT-1W") (footprint "")
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/9e6ba6f4-01f9-4405-9b24-7de4d7bf8096"
+      (reference "U?") (unit 1) (value "P78E05_1000") (footprint "")
     )
   )
 )
