@@ -128,11 +128,17 @@
     (path "/006eecbc-2da1-42af-a6dd-806029d5a5a2/fe08f881-4956-45cd-a843-42ef1b8ebcc0"
       (reference "J1") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
+    (path "/006eecbc-2da1-42af-a6dd-806029d5a5a2/1144bda1-8e39-4e5d-ac15-0b36ca00ad89"
+      (reference "J?") (unit 1) (value "Conn_01x06_Female") (footprint "")
+    )
     (path "/59e48e3f-a326-4082-84f1-ace4fd015a86/6525df72-d5ef-4587-946a-97cf921fa369"
       (reference "J?") (unit 1) (value "Conn_01x02_Female") (footprint "")
     )
     (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/a82f53e6-a07b-45b5-aac4-bae865208648"
       (reference "J?") (unit 1) (value "Jack-DC") (footprint "")
+    )
+    (path "/006eecbc-2da1-42af-a6dd-806029d5a5a2/d8034976-d3a8-4b66-b543-6cdda8392df2"
+      (reference "J?") (unit 1) (value "Conn_01x06_Female") (footprint "")
     )
     (path "/59e48e3f-a326-4082-84f1-ace4fd015a86/10529639-610c-4bd0-8a29-079bdce9b8ef"
       (reference "Q?") (unit 1) (value "2N7002H") (footprint "Package_TO_SOT_SMD:SOT-23")
