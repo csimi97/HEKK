@@ -1,4 +1,4 @@
-20398248823740444
+20399913438563315
 74HC4051
 74HC4051
 
@@ -52128,6 +52128,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EFR32
+EFR32FG23A020F512GM48-B
+
+
+0
+75
+49
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
