@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "HEKK")(type "KiCad")(uri "${KIPRJMOD}/HEKK.kicad_sym")(options "")(descr ""))
+)
