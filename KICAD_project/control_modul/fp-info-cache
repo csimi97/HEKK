@@ -1,4 +1,4 @@
-20403014393707386
+20404679011255940
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52182,8 +52182,8 @@ ESP32
 
 
 0
-0
-0
+61
+61
 ESP32-S3-footprint
 XCVR_ESP32-S3-WROOM-1-N16R2
 
@@ -61361,6 +61361,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+P78E_1000
+P78E3_1000
+
+
+0
+0
+0
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf

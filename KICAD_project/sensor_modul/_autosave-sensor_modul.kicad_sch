@@ -30,6 +30,10 @@
     (property "Sheet file" "power_supply.kicad_sch" (id 1) (at 45.72 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "3V3" input (at 88.9 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 047c425e-94cb-4df1-be00-c844bc6b4844)
+    )
   )
 
   (sheet (at 45.72 110.49) (size 44.45 22.86) (fields_autoplaced)
@@ -91,8 +95,38 @@
   )
 
   (symbol_instances
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/33897c43-ee97-4ef2-9001-cd5248ccdf9a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/2a56f40b-71c1-4390-a388-59e96f7ec09a"
+      (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/5d3b7f67-5fed-41bd-8d8f-b1edb60841ad"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/88e55c50-8d79-4cb1-88c8-9f1f849b661b"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/a06fc6dd-4940-4365-9a52-e677446c70fa"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/d4510c15-0240-437c-826e-b0dd20eaa06b"
+      (reference "C?") (unit 1) (value "22u") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/16bcef4e-e966-436b-a73c-84e5ca8105e1"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/a3191c0f-8584-4e20-86f6-e7bf190eb202"
+      (reference "FB?") (unit 1) (value "FerriteBead") (footprint "")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/c71d568f-154b-473e-aebe-17081dcb69d2"
+      (reference "FB?") (unit 1) (value "FerriteBead") (footprint "")
+    )
     (path "/006eecbc-2da1-42af-a6dd-806029d5a5a2/fe08f881-4956-45cd-a843-42ef1b8ebcc0"
       (reference "J1") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/2fd24370-5564-40e0-9772-aeb0c8c32a4a/9e6ba6f4-01f9-4405-9b24-7de4d7bf8096"
+      (reference "U?") (unit 1) (value "P78E05_1000") (footprint "")
     )
   )
 )
