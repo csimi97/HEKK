@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 4344b127-7245-4886-b331-5194bec15e03)
 
@@ -17,6 +17,42 @@
     )
     (property "Sheet file" "ESP32.kicad_sch" (id 1) (at 106.68 135.2046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 181.61 72.39) (size 38.1 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 802cbfff-96bd-467c-a85f-9b02f8af1c62)
+    (property "Sheet name" "SPI_header" (id 0) (at 181.61 71.6784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SPI_header.kicad_sch" (id 1) (at 181.61 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "GND" input (at 184.15 92.71 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 62d408c3-b434-4bda-91df-2ec05700fc4c)
+    )
+    (pin "MISO" input (at 181.61 74.93 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0e076697-37c2-4f66-85ed-015d46d1743f)
+    )
+    (pin "MOSI" input (at 181.61 77.47 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9dd65708-56ff-4ffb-ad27-bdef123a0c31)
+    )
+    (pin "SCLK" input (at 181.61 80.01 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 256d9320-efaa-4bd2-85ce-f51a3a7804bb)
+    )
+    (pin "3V3" input (at 181.61 83.82 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid da646294-6e80-4299-9273-97a98c0fa0e6)
+    )
+    (pin "CS_1" input (at 181.61 86.36 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 22e13cee-0108-4e41-b753-6f80f5ca9b61)
     )
   )
 
@@ -44,18 +80,6 @@
     )
   )
 
-  (sheet (at 181.61 72.39) (size 38.1 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 802cbfff-96bd-467c-a85f-9b02f8af1c62)
-    (property "Sheet name" "SPI_header" (id 0) (at 181.61 71.6784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "SPI_header.kicad_sch" (id 1) (at 181.61 93.2946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
     (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181" (page "2"))
@@ -65,6 +89,78 @@
   )
 
   (symbol_instances
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/1a675a17-b83b-4087-8bfe-7a5d3cbdef69"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/33b724f0-dbfe-499c-b93a-42c9967fa506"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/34f6c172-4184-490d-afd1-50cb46cac2de"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/4bcd1889-924a-4270-9191-d3c6042556cd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/54926d76-694e-4bab-b843-74aef145dbb3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/57dcd713-afc9-458e-bc98-ed8abc9ba025"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/725745a7-ac96-40d8-9dab-bfddf4550618"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/97a8882d-8482-4082-94c3-e46713ab8d1d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/ac20473d-1846-4e33-8173-af36038e8f45"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/c9c87b2f-a045-4ecf-bac0-52b97b2f69b6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/ce4529e7-3e0b-4a29-aef4-e0d428696adc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/d54918c4-b1d7-4835-9f59-a2ff14d07f2d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/dec02dae-7fb3-49a7-8fba-208ed854299d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/e88576a5-9402-4fb8-b363-deeb6eaf5f65"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/f73c6ee1-c2b5-4f9a-ae5e-a84c9a36bea4"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/f7807dd4-82e2-4431-a461-17ffd90911e2"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/1d28760d-ff96-43cf-a70c-ac2c2f86f87d"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/3840dca8-3f88-41c2-925f-3b654227f4a5"
+      (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/8f08b932-da4c-440b-9f3d-d6b2605fd011"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/fd2512ec-706a-42c8-b4fe-6cfc15822b20"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/1256b663-cbcd-4e0a-9e2d-b9f3f22c18e4"
+      (reference "J?") (unit 1) (value "Conn_01x06_Female") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/cd5b42f9-c83d-4425-a2c4-ffd408accf4a"
+      (reference "J?") (unit 1) (value "Conn_01x06_Female") (footprint "")
+    )
+    (path "/802cbfff-96bd-467c-a85f-9b02f8af1c62/d2a0597c-e29f-4e59-b4bb-14f3f00780f3"
+      (reference "J?") (unit 1) (value "Conn_01x06_Female") (footprint "")
+    )
+    (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/6e9070cc-f8b2-47d7-9fce-88494090c4fd"
+      (reference "L?") (unit 1) (value "2n") (footprint "")
+    )
     (path "/77b00f89-43ee-4cc5-9bcd-0dc9a6096181/c9b04585-6b83-47c8-8b64-e5bd1acbfac7"
       (reference "U?") (unit 1) (value "ESP32") (footprint "ESP32-S3-footprint:XCVR_ESP32-S3-WROOM-1-N16R2")
     )
