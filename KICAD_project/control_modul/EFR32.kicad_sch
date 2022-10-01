@@ -1010,7 +1010,7 @@
     )
   )
 
-  (hierarchical_label "RADIO_SCK" (shape input) (at 182.88 74.93 0)
+  (hierarchical_label "RADIO_SDA" (shape input) (at 182.88 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 10da5713-9f9d-4e94-9370-200b53b1132c)
   )
@@ -1092,7 +1092,7 @@
     (property "Value" "39MHz" (id 1) (at 123.19 129.54 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm" (id 2) (at 135.89 134.62 0)
+    (property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" (id 2) (at 135.89 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 135.89 134.62 0)
